@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://app.mandate.md/hackathon/cover.png" alt="Mandate. See why your agent spends. Stop it when it shouldn't." width="100%" />
+</p>
+
 # Mandate Skill
 
 Policy guardrails for AI agent wallets. Enforce spend limits, allowlists, approval workflows, and prompt injection detection before every transaction. Non-custodial: private keys never leave your machine.
