@@ -26,6 +26,18 @@ Two-phase enforcement: PostToolUse records validation tokens, PreToolUse blocks 
 
 See [claude-mandate-plugin](https://github.com/SwiftAdviser/claude-mandate-plugin) for details.
 
+### Universal install via [skills.sh](https://skills.sh) (40+ agents, no hooks)
+
+Installs `SKILL.md` into Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Windsurf, and 35+ other agents:
+
+```bash
+npx skills add SwiftAdviser/mandate-skill
+```
+
+Flags: `-g` for global (`~/.claude/skills/...`), `-a claude-code` to target a specific agent, `-y` to skip prompts.
+
+No hooks layer, so the agent must voluntarily call `/validate` before every transaction. For hook-based enforcement, use the OpenClaw or Claude Code plugin above.
+
 ### Other frameworks (GOAT, AgentKit, ElizaOS, MCP)
 
 Point your agent to the skill file:
